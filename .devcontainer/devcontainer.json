@@ -7,6 +7,9 @@
   "containerEnv": {
     "PYTHONASYNCIODEBUG": "1"
   },
+  "mounts": [
+    "source=D:/HA-Frontend-dev,target=/workspaces/frontend,type=bind,consistency=cached"
+  ],
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
@@ -64,9 +67,6 @@
             "fileMatch": ["homeassistant/components/*/manifest.json"],
             "url": "./script/json_schemas/manifest_schema.json"
           }
-        ],
-        "mounts": [
-          "source=D:/HA-Frontend-dev/frontend,target=/workspaces/frontend,type=bind,consistency=cached"
         ]
       }
     }
