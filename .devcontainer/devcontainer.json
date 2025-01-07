@@ -64,6 +64,9 @@
             "fileMatch": ["homeassistant/components/*/manifest.json"],
             "url": "./script/json_schemas/manifest_schema.json"
           }
+        ],
+        "mounts": [
+          "source=/path/to/hass/frontend,target=/workspaces/frontend,type=bind,consistency=cached"
         ]
       }
     }
