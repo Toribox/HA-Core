@@ -9,7 +9,7 @@
   },
   "mounts": [
     "source=D:/HA-Frontend-dev,target=/workspaces/frontend,type=bind,consistency=cached",
-    "source=D:/HA-WWW/www,target=/workspaces/HA-Core/config/www/tutor,type=bind,consistency=cached"
+    "source=D:/HA-WWW/www,target=/workspaces/HA-Core/config/www/,type=bind,consistency=cached"
   ],
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
